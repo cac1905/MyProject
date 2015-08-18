@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>简洁的关闭层代码</title>
+<style type="text/css">
+	#Layer1{
+		background:#ccc;
+		height:300px;
+		width:500px;
+		margin: 0 auto;
+	}
+	#Layer1 a{
+		text-decoration: none;
+		font-size: 12px;
+		border: 1px solid #333;
+		background:green;
+		color: #fff;
+		padding: 2px;
+		margin:5px;
+		float: right;
+	}
+</style>
+
+</head>
+
+<body>
+简洁的关闭层代码<br />
+
+<div id="Layer1" style="">
+	<a href="#" onclick="Layer1.style.display='none'">关闭</a>
+</div>
+
+</body>
+</html>
